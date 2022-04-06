@@ -1,5 +1,9 @@
 # Estimating peanut fatty acid using NIRS and machine learning
-This project is a part of the [Avisa Project](https://www.avisaproject.org/) at [ICRISAT](https://www.icrisat.org).  .
+<div>
+  <img src="./img/Sensor for peanut breeding.png" alt="Overview">
+
+  This project is a part of the [Avisa Project](https://www.avisaproject.org/) at [ICRISAT](https://www.icrisat.org). 
+</div>
 
 #### -- Project Status: [Active]
 
@@ -31,6 +35,7 @@ The purpose of this project is estimate peanut grain oleic acid content using ne
 * etc. 
 
 ## Project Description
+!["AI pipeline"](img/AI_pipeline.png)
 * Measure oleic acid content on 300 samples of peanut
 * Scan the same samples to record spectroscopic data covering more than 1000 
 * Augment data by creating some distortions
@@ -70,16 +75,15 @@ The purpose of this project is estimate peanut grain oleic acid content using ne
 * [Blog Post](link)
 
 
-## Contributing DSWG Members
+## Contributing Members
+Maintener: [Adama Ndour](https://github.com/adamavip)
 
-**Team Leads (Contacts) : [Adama NDOUR](https://github.com/adamavip)(@adamavip)**
-
-#### Other Members:
+**Others**
 
 |Name     |  Slack Handle   | 
 |---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
+|[Adama Ndour](https://github.com/adamavip)| @adamavip        |
+|[Krithika Anbazhagan](https://github.com/krithika17) |     @krithika    |
 
 ## Contact
 Reach out me <p>
