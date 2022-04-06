@@ -1,4 +1,4 @@
-# fatty_acid_nirs_model
+# Estimating peanut fatty acid using NIRS and machine learning
 This project is a part of the [Avisa Project](https://www.avisaproject.org/) at [ICRISAT](https://www.icrisat.org).  .
 
 #### -- Project Status: [Active]
