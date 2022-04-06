@@ -96,3 +96,49 @@ def savgol(spectra, filter_win=15, poly_order=2, deriv_order=0, delta=1.0):
         spectra <numpy.ndarray>: NIRS data smoothed with Savitzky-Golay filtering
     """
     return scipy.signal.savgol_filter(spectra, filter_win, poly_order, deriv_order, delta=delta, axis=1)
+
+
+def derivate(spectra, order=1, delta=1):
+    """ Computes Nth order derivates with the desired spacing using numpy.gradient.
+    Args:
+        spectra <numpy.ndarray>: NIRS data matrix.
+        order <float>: Order of the derivation.
+        delta <int>: Delta of the derivate (in samples).
+
+    Returns:
+        spectra <numpy.ndarray>: Derivated NIR spectra.
+    """
+    for n in range(order):
+        spectra = np.gradient(spectra, delta, axis=1)
+    return spectra
+
+
+
+def preprocess(x):
+    """
+        Apply a series of preprocessing steps to the spectroscopic data
+
+        Args:
+            x <numpy.ndarray> or <pandas.DataFrame>: NIR data
+        
+        Returns:
+            spectra <numpy.ndarray>: processed NIR spectra
+    """
+    #Then compute first derivative
+    #x = derivate(x,order=2)
+    #Apply a Savitzky-Golay filter
+    x = savgol(x)
+
+    # Smooth data
+    #x = smooth(x)
+
+    #Then compute first derivative
+    x = derivate(x)
+
+    #Perform SNV
+    #x = snv(x)
+
+    #Detrend the signal
+    #x = detrend(x)
+  
+    return x
