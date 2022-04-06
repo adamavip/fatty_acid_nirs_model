@@ -3,38 +3,47 @@ This project is a part of the [Avisa Project](https://www.avisaproject.org/) at 
 
 #### -- Project Status: [Active]
 
-## Project Intro/Objective
+## Objective
 The purpose of this project is estimate peanut grain oleic acid content using near-infrared spectroscopy and machine learning/deep learning. Calibration models have been developed will be deployed as rapid phenotyping tools for peanut breeders. 
 
 ### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
+* Hone Ag Pty. Ltd.
+* https://www.honeag.com/
+* Partner contact: Felicity Fraser [felicity@honeag.com]
+
 
 ### Methods Used
 * Inferential Statistics
 * Machine Learning
+* Deep learning
+* Data augmentation
 * Data Visualization
 * Predictive Modeling
 * etc.
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
+* Pandas, jupyter, Numpy
+* Scipy, Matplotlib
+* Scikit-Learn
+* Keras
+* Tensorflow
 * etc. 
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+* Measure oleic acid content on 300 samples of peanut
+* Scan the same samples to record spectroscopic data covering more than 1000 
+* Augment data by creating some distortions
+* Preprocess the data (filtering, derivating, smoothing, etc)
+* Develop ML/DL model architecture
+* Train the model
+* Make predictions
+* Deploy the model
+
 
 ## Needs of this project
 
-- frontend developers
+- frontend development for deployment
 - data exploration/descriptive statistics
 - data processing/cleaning
 - statistical modeling
@@ -43,8 +52,8 @@ The purpose of this project is estimate peanut grain oleic acid content using ne
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
+1. Clone this repo (for help see this [tutorial](https://help.github.com/adamavip/fatty_acid_nirs_model/)).
+2. Raw Data is being kept [here](https://help.github.com/adamavip/fatty_acid_nirs_model/data) within this repo.
 
     *If using offline data mention that and how they may obtain the data from the froup)*
     
@@ -63,7 +72,7 @@ The purpose of this project is estimate peanut grain oleic acid content using ne
 
 ## Contributing DSWG Members
 
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
+**Team Leads (Contacts) : [Adama NDOUR](https://github.com/adamavip)(@adamavip)**
 
 #### Other Members:
 
@@ -73,6 +82,8 @@ The purpose of this project is estimate peanut grain oleic acid content using ne
 |[Full Name](https://github.com/[github handle]) |     @janeDoe    |
 
 ## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+Reach out me <p>
+  <a href="mailto:adamavip@gmail.com@gmail.com?subject=Feedback%20From%20Github&body=Hello," target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/>
+  </a>
+</p>
